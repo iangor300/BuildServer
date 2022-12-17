@@ -1,5 +1,5 @@
 node {
     stage("Build") {
-        sh 'ls'
+        sh 'docker image build --tag ibo2022/nodejsapp .'
     } 
 }
